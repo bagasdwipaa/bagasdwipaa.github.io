@@ -1,0 +1,36 @@
+.slider h3, 
+.slider h5
+{
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.container.clients h3
+{
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.8);
+}
+
+.parallax-container
+{
+    height: 20%;
+}
+
+.parallax img 
+{
+    filter: grayscale(1);
+    /* !important untuk memaksa CSS */
+    opacity: 0.5 !important;
+}
+
+.clients img 
+{
+    max-width: 150px;
+    /* untu gambar isi bayangn yag menyesuaikan bentukk tulisannya */
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+section,
+footer
+{
+    /* untuk background greynya nempel dengan background our clients */
+    padding: 20px 0;
+}
